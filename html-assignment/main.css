@@ -1,0 +1,42 @@
+/*main.css*/   
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px
+}
+
+header, footer {
+    background-color: blue;
+}
+
+.site-title {
+    color: green;
+}
+
+#my-image {
+    box-shadow: 0 0 2px 1px black ;
+}
+
+.hobbies-list{
+ list-style-type: square;
+}
+
+.hobbies-list li:nth-child(odd) {
+    background-color: yellowgreen;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: green;
+    padding: 5px;
+    border:1px solid red
+}
+
+nav a:hover, nav a:focus {
+    background-color: pink;
+    color: white; 
+}
